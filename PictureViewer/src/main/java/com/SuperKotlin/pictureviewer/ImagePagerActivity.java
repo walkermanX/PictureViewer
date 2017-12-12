@@ -19,7 +19,7 @@ import java.util.List;
  * 图片查看器
  * Created by zhuyong on 2017/5/12.
  */
-public class ImagePagerActivity extends FragmentActivity {
+public class ImagePagerActivity extends FragmentActivity implements View.OnClickListener{
     private static final String TAG = "ImagePagerActivity";
     private static final String STATE_POSITION = "STATE_POSITION";
     public static final String EXTRA_IMAGE_INDEX = "image_index";
@@ -72,6 +72,13 @@ public class ImagePagerActivity extends FragmentActivity {
 
         mPager.setCurrentItem(pagerPosition);
         indicator.setVisibility(mIsShowNumber ? View.VISIBLE : View.GONE);
+        findViewById(R.id.btn_back).setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (v.getId()==R.id.btn_back)
+            finish();
     }
 
     @Override
