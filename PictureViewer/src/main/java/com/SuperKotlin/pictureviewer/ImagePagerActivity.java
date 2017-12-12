@@ -111,4 +111,20 @@ public class ImagePagerActivity extends FragmentActivity {
         ImageUtil.path = config.path;
         context.startActivity(intent);
     }
+
+
+    public void fullScreenMode() {
+        if (findViewById(R.id.title_bar).getVisibility() == View.VISIBLE) {
+            indicator.setVisibility(View.GONE);
+            findViewById(R.id.title_bar).setVisibility(View.GONE);
+        } else {
+            if (mIsShowNumber)
+                indicator.setVisibility(View.VISIBLE);
+            findViewById(R.id.title_bar).setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void setTitleBarVisibility(int visibility) {
+        findViewById(R.id.title_bar).setVisibility(visibility);
+    }
 }
