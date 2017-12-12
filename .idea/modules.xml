@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PictureViewer.iml" filepath="$PROJECT_DIR$/.idea/PictureViewer.iml" />
-      <module fileurl="file://D:\WorkSpace\AndroidStudioProject\github_study_projects\PictureViewer\PictureViewer.iml" filepath="D:\WorkSpace\AndroidStudioProject\github_study_projects\PictureViewer\PictureViewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/PictureViewer/PictureViewer-PictureViewer.iml" filepath="$PROJECT_DIR$/PictureViewer/PictureViewer-PictureViewer.iml" />
-      <module fileurl="file://D:\WorkSpace\AndroidStudioProject\github_study_projects\PictureViewer\PictureViewer\PictureViewer-PictureViewer.iml" filepath="D:\WorkSpace\AndroidStudioProject\github_study_projects\PictureViewer\PictureViewer\PictureViewer-PictureViewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\WorkSpace\AndroidStudioProject\github_study_projects\PictureViewer\app\app.iml" filepath="D:\WorkSpace\AndroidStudioProject\github_study_projects\PictureViewer\app\app.iml" />
     </modules>
   </component>
 </project>
